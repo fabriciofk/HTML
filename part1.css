@@ -1,0 +1,131 @@
+*{
+    margin: 1px;
+}
+
+#topo{
+    background-color: rgb(52, 136, 175);
+    min-height: 150px;
+    text-align: center;
+    border-radius: 2px;
+    font-family: cursive;
+}
+
+#menu{
+    background-color:rgb(129, 164, 167);
+    min-height: 500px;
+    width: 25%;
+    border-radius: 6px;
+}
+
+#conteudo{
+    background-color:rgb(129, 164, 167);
+    min-height: 100px;
+    width: 75%;
+    border-radius: 5px;
+    font-family: cursive;
+    text-align: center;
+    
+
+}
+
+#rodape{
+    background-color:rgb(129, 164, 167);
+    height: 75px;
+    border-radius: 5px;
+    text-align: center;
+}
+/*fim id*/
+
+/*inicio classe*/
+
+.item-menu{
+    display: block;
+    max-width: 320px;
+    background-color:rgb(172, 165, 156);
+    border-radius: 5px;
+    border: 1.5px solid rgb(3, 3, 3);
+}
+
+.item-menu:hover {
+    transform: translate(5px,0);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+.mapa{
+    width:100%;
+    height: 70%;
+    position: sticky;
+}
+/*fim classe*/
+
+/*inicio tag*/
+main{
+    display: flex;
+}
+
+a {
+    text-decoration:none;
+    color: black;
+
+}
+/*fim tag*/
+
+.salta-imagem:hover {
+	transform: scale(1.1, 1.1);
+	border: 1px solid rgb(254, 255, 248);
+    cursor: pointer;
+    display:inline;
+    text-align: center;
+    position: sticky;
+    
+}
+
+.conteudo-cliente {
+    text-align: center;
+
+}
+
+.salta-imagem2:hover {
+	transform: scale(0.5, 0.5);
+	border: 1px solid rgb(254, 255, 248);
+    cursor: pointer;
+    display:inline;
+}
+.produtos{
+    text-align:center;
+    font: unset;
+}
+
+
+.menu-contatos{
+   background-color:rgb(68, 37, 0);
+   width: 95%;
+   border: 2px ;
+   padding: 3px;
+}
+
+.compri-site{
+    width: 50%;
+    margin: auto;
+    background-color: rgb(68, 37, 0);
+    background-repeat: no-repeat;
+}
+
+#icone-flutuante {
+    position: fixed;
+    right: 0;
+    top: 35%;
+}
+.black-frida{
+    width:53px ;
+    height: 10px ;
+    position: sticky;
+}
+
+.mapaportu{
+    width:400px;
+    height: 200px;
+    position:inherit;
+}
